@@ -8,6 +8,10 @@
     position: relative;
     text-align: center;
 
+    @include respond(phone) {
+        clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    }
+
     &__logo-box {
         position: absolute;
         top: 4rem;
