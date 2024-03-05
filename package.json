@@ -14,7 +14,7 @@
     "start": "npm-run-all --parallel devserver watch:sass"
 
   },
-  "author": "",
+  "author": "Ali Mortazavi",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.18",
